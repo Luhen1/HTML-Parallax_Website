@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax-section {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#section1 {
+    background-image: url('https://www.krqe.com/wp-content/uploads/sites/12/2022/12/AdobeStock_81556974.jpeg?w=2560&h=1440&crop=1');
+}
+
+#section2 {
+    background-image: url('https://www.ukri.org/wp-content/uploads/2021/10/STFC-041021-EuropeFromSpace-GettyImages-1284041267.jpg');
+}
+
+.content-section {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.content-section p {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1.2em;
+}
